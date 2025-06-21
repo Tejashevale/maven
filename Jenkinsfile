@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Welcome Stage') {
             steps {
-                echo "Welcome to Pipeline"
+                echo "Welcome to Pipeline" 
             }
         }
 
