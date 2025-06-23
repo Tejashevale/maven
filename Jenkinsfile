@@ -2,8 +2,9 @@ pipeline {
     agent any
 
     tools {
-        maven 'MAVEN_HOME' // Make sure this matches your Jenkins global tool config
-    }
+    jdk 'jdk17'
+    maven 'Maven3'
+}
 
     stages {
         stage('Welcome Stage') {
