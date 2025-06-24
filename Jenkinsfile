@@ -3,7 +3,8 @@ pipeline {
 
     tools {
         jdk 'jdk21'              // Must match the name you gave in step 1
-        maven 'Maven 3.9.2'      // Or your Maven version name
+        maven 'MAVEN_HOME'
+     // Or your Maven version name
     }
 
     stages {
